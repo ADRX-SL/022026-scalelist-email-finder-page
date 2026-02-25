@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo-transparent-bg.png";
 
@@ -12,11 +12,11 @@ const FooterCTA = () => {
             Unlock B2B emails &amp;<br />mobile numbers for free
           </h2>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <Button size="lg" className="rounded-full px-8 text-base">
-              Get started for free
+            <Button size="lg" className="gap-2 rounded-full px-8 text-base">
+              <Sparkles className="h-4 w-4" /> Get started for free
             </Button>
-            <Button size="lg" variant="outline" className="gap-2 rounded-full px-8 text-base">
-              Talk to Sales <ArrowRight className="h-4 w-4" />
+            <Button size="lg" variant="ghost" className="gap-2 rounded-full px-8 text-base">
+              Contact Sales <ArrowRight className="h-4 w-4" />
             </Button>
           </div>
         </div>
