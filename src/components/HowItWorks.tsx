@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import featureProfilesImg from "@/assets/feature-profiles.webp";
+import featureProfilesImg from "@/assets/professional-email.jpg";
 import featureBulkImg from "@/assets/feature-bulk.webp";
 import featureApiImg from "@/assets/feature-api.jpg";
 
