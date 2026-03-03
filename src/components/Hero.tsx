@@ -26,7 +26,7 @@ const TrustBar = () => {
     { name: "BD", src: logoBd, height: "h-7" },
   ];
   return (
-    <div className="border-y border-border bg-white py-8">
+    <div className="border-y border-border bg-white py-12">
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-wrap items-center justify-between gap-x-8 gap-y-4">
           {logos.map((logo) => (
@@ -48,10 +48,10 @@ const Hero = () => {
 
   return (
     <>
-      <section className="relative overflow-hidden pb-10 pt-12">
+      <section className="relative overflow-hidden pb-16 pt-16">
         <div className="mx-auto max-w-3xl px-6 text-center">
           {/* Icon + Title */}
-          <div className="mb-4 flex items-center justify-center gap-4">
+          <div className="mb-6 flex items-center justify-center gap-4">
             <EmailFinderIcon />
             <h1 className="text-5xl font-extrabold tracking-tight text-foreground">
               Email Finder
@@ -59,13 +59,13 @@ const Hero = () => {
           </div>
 
           {/* Subtitle */}
-          <p className="mx-auto mb-8 max-w-lg text-lg text-muted-foreground">
+          <p className="mx-auto mb-10 max-w-lg text-lg text-muted-foreground">
             Find professional email addresses of people who<br />
             matter to your business.
           </p>
 
           {/* Tabs */}
-          <div className="mb-6 flex flex-wrap items-center justify-center gap-3">
+          <div className="mb-8 flex flex-wrap items-center justify-center gap-3">
             <button
               onClick={() => setActiveTab("names")}
               className={`flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition-colors ${
