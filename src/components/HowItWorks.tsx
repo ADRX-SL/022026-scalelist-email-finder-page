@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import featureProfilesImg from "@/assets/feature-profiles.png";
-import featureBulkImg from "@/assets/feature-bulk.png";
-import featureApiImg from "@/assets/feature-api.png";
+import featureProfilesImg from "@/assets/feature-profiles.webp";
+import featureBulkImg from "@/assets/feature-bulk.webp";
+import featureApiImg from "@/assets/feature-api.jpg";
 
 type Step = 1 | 2 | 3;
 
