@@ -90,6 +90,10 @@
     @apply border-border;
   }
 
+  p {
+    margin-block-end: 0 !important;
+  }
+
   body {
     @apply bg-background text-foreground font-sans;
   }

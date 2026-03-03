@@ -78,18 +78,14 @@ const Hero = () => {
               Find emails by names
             </button>
             <span className="text-sm text-muted-foreground">OR</span>
-            <button
-              onClick={() => setActiveTab("mobile")}
-              className={`flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition-colors ${
-                activeTab === "mobile"
-                  ? "bg-primary text-primary-foreground"
-                  : "border border-border bg-white text-foreground hover:bg-muted"
-              }`}
+            <a
+              href="https://scalelist.com/lead-mobile-finder/"
+              className="flex items-center gap-2 rounded-full border border-border bg-white px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
             >
               <Phone className="h-4 w-4" />
               Find mobile numbers
               <ArrowRight className="h-3 w-3" />
-            </button>
+            </a>
           </div>
 
           {/* Search Form */}
