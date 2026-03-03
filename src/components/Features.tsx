@@ -44,10 +44,10 @@ const Features = () => {
                 <EmailRow email="danielferrera@apple.io" percentage="87%" valid={false} />
               </div>
             </div>
-            <h3 className="mt-6 text-2xl font-bold text-foreground">
+            <h3 className="mt-6 text-center text-2xl font-bold text-foreground">
               Pay for valid email addresses only.
             </h3>
-            <p className="mt-3 text-muted-foreground">
+            <p className="mt-3 text-center text-muted-foreground">
               With our email verification system, never pay for catch-all or emails you already found. We guarantee email validity and deliverability, or it's on us.
             </p>
           </div>
