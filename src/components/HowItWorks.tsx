@@ -17,10 +17,10 @@ const steps: {
 }[] = [
   {
     step: 1,
-    label: "Search on Professional profiles",
-    title: "Search on Professional profiles",
+    label: "Search on Professional Profiles",
+    title: "Search on Professional Profiles",
     description:
-      "Find emails and phone numbers on Professional profiles instantly. Push leads to your CRM, CSV, or the tool of your choice in one-click.",
+      "Find verified emails on Professional profiles instantly. Push leads to your CRM, CSV, or the tool of your choice in one-click.",
     bullets: [
       "Find verified emails and mobile numbers instantly",
       "Export or sync to CRM, CSV, or any tool in one click",
@@ -154,25 +154,29 @@ const HowItWorks = () => {
             </div>
 
             {/* Right: Image */}
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center rounded-2xl bg-white p-4">
               <img
                 src={current.image}
                 alt={current.title}
-                className="max-h-[400px] w-full rounded-xl object-contain"
+                className="w-full rounded-xl object-contain"
               />
             </div>
           </div>
         </div>
 
         {/* CTA Buttons */}
-        <div className="mt-10 flex items-center justify-center gap-4">
-          <Button size="lg" className="rounded-full px-8 text-base">
-            Get started for free
-          </Button>
-          <Button variant="outline" size="lg" className="gap-2 rounded-full px-8 text-base">
-            Talk to Sales
-            <ArrowRight className="h-4 w-4" />
-          </Button>
+        <div className="mt-16 flex items-center justify-center gap-4">
+          <a href="https://app.scalelist.com/auth/login?redirectUrl=%2Fapp%2Fdashboard">
+            <Button size="lg" className="gap-2 rounded-full px-8">
+              Try for free
+              <ArrowRight className="h-4 w-4" />
+            </Button>
+          </a>
+          <a href="https://form.typeform.com/to/lvQHcXGx?typeform-source=scalelist.com">
+            <Button variant="outline" size="lg" className="rounded-full px-8 bg-white text-foreground border border-border">
+              Talk to sales
+            </Button>
+          </a>
         </div>
       </div>
     </section>
